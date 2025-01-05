@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratatouille Yerken İzlenecek Filmler</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec; /* Pembe arka plan */
+    margin: 0;
+    padding: 0;
+    color: #37474f; /* Hafif koyu yazı rengi */
+}
+
+header {
+    background-color: #b3e5fc; /* Baby blue */
+    padding: 20px;
+    text-align: center;
+    color: #37474f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.film {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.film img {
+    width: 120px;
+    height: auto;
+    border-right: 4px solid #b3e5fc;
+}
+
+.film-info {
+    padding: 10px 15px;
+    flex-grow: 1;
+}
+
+h2 {
+    margin-top: 0;
+    color: #e91e63; /* Pembe başlık rengi */
+}
+
+p {
+    margin: 5px 0;
+}
+
+strong {
+    color: #00796b; /* Vurgulanan metinler için yeşilimsi ton */
+}
+.back-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-link a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #b3e5fc; /* Baby blue */
+    color: #37474f;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-link a:hover {
+    background-color: #81d4fa; /* Daha açık mavi */
+    transform: scale(1.05);
+}
+
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>Ratatouille Yerken İzlenebilecek Filmler</h1>
+    </header>
+    <main>
+        <section class="film">
+            <img style="width: 240px; height: auto;" src="ratatouille_film.jpeg" alt="Ratatouille Posteri">
+            <div class="film-info">
+                <h2>1-Ratatouille</h2>
+                <p><strong>Konu:</strong>Paris'te, Fransa'nın en ünlü restoranlarından birinde şef olmak isteyen genç bir sıçan olan Remy, hayalini gerçekleştirmek için bir fırsat bulur. Bir temizlikçi olan Linguini ile tesadüfen bir araya gelen Remy, onun başıboş hareketlerine yön vererek restoranın mutfağında şef olarak parlamaya başlar. Remy'nin yetenekleri, restoranı başarıya taşımaya çalışırken, mutfakta gizlice yemek yapmanın zorlukları ve eğlenceleriyle yüzleşir.</p>
+                <p><strong>IMDb:</strong> 8.0</p>
+            </div>
+        </section>
+        <section class="film">
+            <img style="width: 240px; height: auto;" src="la_dolce_vita.jpg" alt="La Dolce Vita Posteri">
+            <div class="film-info">
+                <h2>2-La Dolce Vita</h2>
+                <p><strong>Konu:</strong>Ünlü bir gazeteci olan Marcello’nun, Roma'daki lüks ve boş yaşamını sorgulaması. Bu film, İtalyan sinemasıyla tanınmış olsa da, Fransız sineması ile büyük bir etkisi vardır. Hayat, toplum ve medyanın sorgulandıği derin bir film.</p>
+                <p><strong>IMDb:</strong> 8.0</p>
+            </div>
+        </section>
+        <section class="film">
+            <img style="width: 240px; height: auto;" src="la_vie_en_rose.jpg" alt="La Vie en Rose Posteri">
+            <div class="film-info">
+                <h2>3-La Vie en Rose</h2>
+                <p><strong>Konu:</strong>Ünlü Fransız şarkıcı Edith Piaf’ın hayatını anlatan biyografik bir film. Marion Cotillard’ın Piaf rolündeki performansı büyük beğeni topladı. Film, Piaf’ın müzik kariyerini ve özel hayatındaki zorlukları ele alır.</p>
+                <p><strong>IMDb:</strong> 7.6</p>
+            </div>
+        </section>
+        <!--Tarif Sitesine Dönme-->
+        <div class="back-link">
+            <a href="index.html">Ana Siteye Dön</a>
+        </div>
+    </main>
+</body>
+</html>

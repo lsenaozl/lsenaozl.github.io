@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Yerken İzlenecek Filmler</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec; /* Pembe arka plan */
+    margin: 0;
+    padding: 0;
+    color: #37474f; /* Hafif koyu yazı rengi */
+}
+
+header {
+    background-color: #b3e5fc; /* Baby blue */
+    padding: 20px;
+    text-align: center;
+    color: #37474f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.film {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.film img {
+    width: 120px;
+    height: auto;
+    border-right: 4px solid #b3e5fc;
+}
+
+.film-info {
+    padding: 10px 15px;
+    flex-grow: 1;
+}
+
+h2 {
+    margin-top: 0;
+    color: #e91e63; /* Pembe başlık rengi */
+}
+
+p {
+    margin: 5px 0;
+}
+
+strong {
+    color: #00796b; /* Vurgulanan metinler için yeşilimsi ton */
+}
+.back-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-link a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #b3e5fc; /* Baby blue */
+    color: #37474f;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-link a:hover {
+    background-color: #81d4fa; /* Daha açık mavi */
+    transform: scale(1.05);
+}
+
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>Pizza Yerken İzlenebilecek Filmler</h1>
+    </header>
+    <main>
+        <section class="film">
+            <img style="width: 240px; height: auto;" src="life_is_beautiful.jpg" alt="Hayat Güzeldir Posteri">
+            <div class="film-info">
+                <h2>1-Hayat Güzeldir(Life Is Beautiful)</h2>
+                <p><strong>Konu:</strong>Dünya Savaşı zamanında karısı ve oğlu ile birlikte Yahudi kamplarına götürülen Yahudi bir babanın ve peşinden giden İtalyan bir annenin, çocuğunu korumak için yaptığı sayısız özveriyi anlatıyor.</p>
+                <p><strong>IMDb:</strong> 8.6</p>
+            </div>
+        </section>
+        <section class="film">
+            <img style="width: 240px; height: auto;" src="malena.jpg" alt="Malena Posteri">
+            <div class="film-info">
+                <h2>2-Malena</h2>
+                <p><strong>Konu:</strong>Dünya, ülkelerin arasındaki politik çıkmazlar sebebiyle büyük bir savaşın gölgesindedir. Bu dünyada gençliğine ulaşmaya çabalayan bir çocuk ise kasabalarına gelen, güzeller güzeli bir genç kadın olan Malena'nın etkisiyle kendi erkek kimliğini bulmak üzeredir.</p>
+                <p><strong>IMDb:</strong> 7.4</p>
+            </div>
+        </section>
+        <section class="film">
+            <img style="width: 240px; height: auto;" src="kizil_ejder.jpg" alt="Kızıl Ejder Posteri">
+            <div class="film-info">
+                <h2>3-Kızıl Ejder(Red Dragon)</h2>
+                <p><strong>Konu:</strong>BI'dan erkenden emekli olan Will Graham (Edward Norton), patronu tarafından bir seri cinayet vakasını çözmesi için yeniden göreve çağrılır. Will, önce görevi kabul etmek istemese de, kurbanların fotoğraflarını görünce fikrini değiştirir. Kurbanlarının vücudunda kendine has bir diş izi bırakan ve gerçek adı Francis Dollarhyde olan bu katil, Kızıl Ejder adını kullanmaktadır. Kısa bir araştırmadan sonra, Graham katilin yeni kurbanının Reba adlı genç bir kadın olacağını öngörür ve onu durdurabilmek için bizzat kendi elleriyle hapse tıktığı, eski düşmanı Dr. Hannibal Lecter'dan (Anthony Hopkins) yardım ister.</p>
+                <p><strong>IMDb:</strong>7.2</p>
+            </div>
+        </section>
+        <!--Tarif Sitesine Dönme-->
+        <div class="back-link">
+            <a href="index.html">Ana Siteye Dön</a>
+        </div>
+    </main>
+</body>
+</html>

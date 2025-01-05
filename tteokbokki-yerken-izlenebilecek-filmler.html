@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tteokbokki Yerken İzlenecek Filmler</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec; /* Pembe arka plan */
+    margin: 0;
+    padding: 0;
+    color: #37474f; /* Hafif koyu yazı rengi */
+}
+
+header {
+    background-color: #b3e5fc; /* Baby blue */
+    padding: 20px;
+    text-align: center;
+    color: #37474f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.film {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.film img {
+    width: 120px;
+    height: auto;
+    border-right: 4px solid #b3e5fc;
+}
+
+.film-info {
+    padding: 10px 15px;
+    flex-grow: 1;
+}
+
+h2 {
+    margin-top: 0;
+    color: #e91e63; /* Pembe başlık rengi */
+}
+
+p {
+    margin: 5px 0;
+}
+
+strong {
+    color: #00796b; /* Vurgulanan metinler için yeşilimsi ton */
+}
+.back-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-link a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #b3e5fc; /* Baby blue */
+    color: #37474f;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-link a:hover {
+    background-color: #81d4fa; /* Daha açık mavi */
+    transform: scale(1.05);
+}
+
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>Tteokbokki Yerken İzlenebilecek Filmler</h1>
+    </header>
+    <main>
+        <section class="film">
+            <img style="width: 240px; height: auto;" src="parasite.jpg" alt="Parazit Posteri">
+            <div class="film-info">
+                <h2>1-Parasite </h2>
+                <p><strong>Konu:</strong> Fakir bir aile, zengin bir ailenin hayatına sızmak için çeşitli planlar yapar. Bong Joon-ho'nun yönettiği bu film, dramatik ve gerilim unsurlarını mükemmel şekilde harmanlayarak En İyi Film Oscar'ını kazandı.</p>
+                <p><strong>IMDb:</strong> 8.6</p>
+            </div>
+        </section>
+        <section class="film">
+            <img style="width: 240px; height: auto;" src="memories_of_murder.jpg" alt="Memories of Murder Posteri">
+            <div class="film-info">
+                <h2>2-Memories of Murder</h2>
+                <p><strong>Konu:</strong> 1980'lerin Kore'sinde, bir dizi cinayet işlenir ve yerel polis, bu suçları çözmeye çalışır. Bong Joon-ho'nun yönettiği bu film, gerilim ve suç türlerinin harika bir birleşimidir.</p>
+                <p><strong>IMDb:</strong> 8.1</p>
+            </div>
+        </section>
+        <section class="film">
+            <img style="width: 240px; height: auto;" src="the_chaser.jpg" alt="The Chaser Posteri">
+            <div class="film-info">
+                <h2>3-The Chaser</h2>
+                <p><strong>Konu:</strong> Eski bir polis olan bir adam, kaybolan bir kadının izini sürerken, gizemli bir seri katille karşı karşıya gelir. Bu film, aksiyon ve gerilim türlerini başarılı bir şekilde harmanlar.</p>
+                <p><strong>IMDb:</strong> 7.9</p>
+            </div>
+        </section>
+        <!--Tarif Sitesine Dönme-->
+        <div class="back-link">
+            <a href="index.html">Ana Siteye Dön</a>
+        </div>
+    </main>
+</body>
+</html>

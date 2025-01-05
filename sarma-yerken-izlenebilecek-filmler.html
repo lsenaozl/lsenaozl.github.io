@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarma Yerken İzlenecek Filmler</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec; /* Pembe arka plan */
+    margin: 0;
+    padding: 0;
+    color: #37474f; /* Hafif koyu yazı rengi */
+}
+
+header {
+    background-color: #b3e5fc; /* Baby blue */
+    padding: 20px;
+    text-align: center;
+    color: #37474f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.film {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+
+.film-info {
+    padding: 10px 15px;
+    flex-grow: 1;
+}
+
+h2 {
+    margin-top: 0;
+    color: #e91e63; /* Pembe başlık rengi */
+}
+
+p {
+    margin: 5px 0;
+}
+
+strong {
+    color: #00796b; /* Vurgulanan metinler için yeşilimsi ton */
+}
+.back-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-link a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #b3e5fc; /* Baby blue */
+    color: #37474f;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-link a:hover {
+    background-color: #81d4fa; /* Daha açık mavi */
+    transform: scale(1.05);
+}
+
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>Sarma Yerken İzlenebilecek Filmler</h1>
+    </header>
+    <main>
+        <section class="film">
+            <img style="width: 240px; height: auto;" src="issiz_adam.jpg" alt="Issız Adam Posteri">
+            <div class="film-info">
+                <h2>1-Issız Adam</h2>
+                <p><strong>Konu:</strong>Alper, gurme denilecek seviyede yemek kültürü olan kendi restoranının sahibi bir aşçıdır. Lüks yaşamayı seven, işinde başarılı ama özel yaşantısını her gün farklı kadınlarla geçirerek düzene koyamamış, yaşamını; yaptığı yemekler, zengin kadınlar çevresinde yaşayan birisidir.</p>
+                <p>Ada, Taksim'de çocuk kostümleri tasarlayıp dikmekte olan, Alper'in modern hayatının aksine çok mütevazı, hayatta fazla inişleri çıkışları olmayan genç bir kızdır. Bir gün eski bir kitabı bulabilmek için Beyoğlu'nda dolaşırken Alper ile Ada aynı kitapçıya girerler ve aşk ile çelişkili yaşam onlar için başlamış olur. Aralarındaki ilişkide görünür bir şekilde herhangi bir sorun bulunmasa da, Alper'in yalnızlık arayışı ve toplumla hiçbir zaman iyi ilişkiler edinmek istemeyişi ilişkinin sonunu getirmektedir.</p>
+                <p><strong>IMDb:</strong> 6.8</p>
+            </div>
+        </section>
+        <section class="film">
+            <img style="width: 240px; height: auto;" src="hababam_sinifi.jpg" alt="Hababam Sınıfı Posteri">
+            <div class="film-info">
+                <h2>2-Hababam Sınıfı</h2>
+                <p><strong>Konu:</strong>Özel Çamlıca Lisesi`ne yeni atanan müdür muavini Mahmut Hoca (nam-ı diğer Kel Mahmut) kopya çeken, okuldan kaçıp maçlara giden, hocalarla sürekli kafa bulan öğrencilerle dolu Hababam Sınıfı`nı ilginç ceza yöntemleriyle disiplin altına almaya çalışır. Fakat aynı zamanda öğrenci haylazlığı dışında ciddi olaylar da yaşanmaktadır.</p>
+                <p><strong>IMDb:</strong>9.2</p>
+            </div>
+        </section>
+        <section class="film">
+            <img style="width: 240px; height: auto;" src="7kogustaki_mucize.jpg" alt="7.Koğuştaki Mucize Posteri">
+            <div class="film-info">
+                <h2>3-7.Koğuştaki Mucize</h2>
+                <p><strong>Konu:</strong> Filmde 7 yaşındaki kızı Ova ile aynı zeka yaşına sahip olan baba Memo'nun adalet arayışını anlatılıyor. Üst düzey bir komutanının kızının ölümü ile suçlanan Memo, kimseyi suçsuz olduğuna inandıramaz. İdam cezası alan Memo ve yakınları, Memo'nun kurtulması için bir mucize beklemeye başlarlar</p>
+                <p><strong>IMDb:</strong> 8.2</p>
+            </div>
+        </section>
+        <!--Tarif Sitesine Dönme-->
+        <div class="back-link">
+            <a href="index.html">Ana Siteye Dön</a>
+        </div>
+    </main>
+</body>
+</html>

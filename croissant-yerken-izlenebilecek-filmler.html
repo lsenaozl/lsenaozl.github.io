@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarma Yerken İzlenecek Filmler</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec; /* Pembe arka plan */
+    margin: 0;
+    padding: 0;
+    color: #37474f; /* Hafif koyu yazı rengi */
+}
+
+header {
+    background-color: #b3e5fc; /* Baby blue */
+    padding: 20px;
+    text-align: center;
+    color: #37474f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.film {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.film img {
+    width: 120px;
+    height: auto;
+    border-right: 4px solid #b3e5fc;
+}
+
+.film-info {
+    padding: 10px 15px;
+    flex-grow: 1;
+}
+
+h2 {
+    margin-top: 0;
+    color: #e91e63; /* Pembe başlık rengi */
+}
+
+p {
+    margin: 5px 0;
+}
+
+strong {
+    color: #00796b; /* Vurgulanan metinler için yeşilimsi ton */
+}
+.back-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-link a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #b3e5fc; /* Baby blue */
+    color: #37474f;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-link a:hover {
+    background-color: #81d4fa; /* Daha açık mavi */
+    transform: scale(1.05);
+}
+
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>Croissant Yerken İzlenebilecek Filmler</h1>
+    </header>
+    <main>
+        <section class="film">
+            <img style="width: 240px; height: auto;" src="amelie.jpg" alt="Amélie Posteri">
+            <div class="film-info">
+                <h2>1-Amélie </h2>
+                <p><strong>Konu:</strong> Paris'te yalnız yaşayan ve dünyayı daha iyi bir yer yapmak isteyen Amélie'nin hikayesi. Renkli ve hayalperest bir bakış açısıyla, küçük iyiliklerle büyük değişimlere sebep olmayı amaçlar. Jean-Pierre Jeunet'in yönettiği bu film, romantizm ve komediyi mükemmel şekilde harmanlar.</p>
+                <p><strong>IMDb:</strong> 8.3</p>
+            </div>
+        </section>
+        <section class="film">
+            <img style="width: 240px; height: auto;" src="paris_je_taime.jpg" alt="Paris, Je T'aime Posteri">
+            <div class="film-info">
+                <h2>2-Paris, Je T'aime</h2>
+                <p><strong>Konu:</strong> Paris’in çeşitli mahallelerinde geçen farklı kısa hikayeleri birleştiren bir film. Aşkın farklı yüzlerini ve çeşitli insan ilişkilerini keşfeden, sıcak ve samimi bir yapım.</p>
+                <p><strong>IMDb:</strong> 7.2</p>
+            </div>
+        </section>
+        <section class="film">
+            <img style="width: 240px; height: auto;" src="the_diving_bell.jpg" alt="The Diving Bell and the Butterfly Posteri">
+            <div class="film-info">
+                <h2>3-The Diving Bell and the Butterfly</h2>
+                <p><strong>Konu:</strong>Felç olmuş bir adamın gözünden, yaşadığı zorlukları ve içsel dünyasını anlatan etkileyici bir hikaye. Jean-Dominique Bauby'nin hayatını konu alan bu film, insanın iradesinin ve yaşam gücünün sınırlarını keşfeder.</p>
+                <p><strong>IMDb:</strong> 8.0</p>
+            </div>
+        </section>
+        <!--Tarif Sitesine Dönme-->
+        <div class="back-link">
+            <a href="index.html">Ana Siteye Dön</a>
+        </div>
+    </main>
+</body>
+</html>

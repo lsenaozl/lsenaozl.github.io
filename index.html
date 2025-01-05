@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="yemek,film,dünya mutfağı,imdb,tarif">
+        <meta name="description" content="Film seçerken yemeğiniz soğumayacak çünkü biz sizi yediğiniz yemeğin ülkesine ışınlayacağız.">
+        <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+        <title>
+            Yemek Tarifleri
+        </title>
+        <style>
+
+           body {
+            font-family: Arial, sans-serif
+            margin: 10px;
+            padding: 80px;
+            background-color:  rgb(180, 204, 209);
+
+}
+
+            table {
+            width=100%;
+            align=center;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+            th, td{
+            padding: 10px;
+            text-align: center;
+            border: 1px solid rgb(240, 248, 255);
+        }
+
+        th {
+            background-color:  #c9e8f7;
+            color: #37474f;
+            font-size: 1.3em;
+        }
+
+        td {
+            background-color: #fbd2e0;
+            font-size: 0.9em;
+            color: #37474f
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        h2{
+            font-size: 1.8em;
+        }
+        h3{
+            color:#9f0040;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+        }
+        li {
+            line-height: 2;
+        }
+
+        a:hover {
+            color: #ff6600;
+        }
+
+        img {
+            width: 26%;
+            height: auto;
+            float: right;
+            margin: 27px;
+            margin-left: 15px;
+        }
+        .recipe-container {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+        .recipe-container img {
+            width: 50%;
+            height: auto;
+        }
+
+        .recipe-container p {
+            margin: 1rem;
+            color: #666;
+        }
+        .recipe-container ul,
+        .recipe-container ol {
+            margin: 1rem;
+            padding: 0 1rem;
+        }
+
+        </style>
+
+
+    </head>
+    <body>
+        <div id="top"></div>
+        <!--Slogan-->
+        <div style="color: #9f0040; text-align: center; padding: 10px; font-size: 52px;">
+            <b><i>Eat 'til The End</i></b>
+            <p style=" color: #9b5e77; text-align: center;  padding:3px; font-size: 22px;"><i>Artık Yemeğiniz Soğumayacak!</i></p>
+            <p style="font-size: 22px; color:#37474f">Sizler için oluşturduğumuz bu sitede çeşitli dünya mutfakların popüler lezzetlerinin tarifini veriyor, tariflerin altında oluşturduğumuz listelerdeki filmlerle, film seçimizi hızlandırıp yemeğinizin soğumasını engellemeyi hedefliyoruz! Hoşgeldiniz!</p>
+            <p style="font-size: 22px; color:#37474f">Hoşgeldiniz!</p>
+        </div>
+
+    <!--Ana Menü Tablosu: 3 Satır ve 5 Sütun-->
+    <main>
+        <h2 style="color: rgb(10, 69, 81); padding: 7px; font-size: 33px;">Canınız Ne Çekiyor?</h2>
+        <table border="1">
+            <!--1.Satır-->
+            <tr>
+                <th>Türk Mutfağı Lezzetleri</th>
+                <th>İtalyan Mutfağı Lezzetleri</th>
+                <th>Japon Mutfağı Lezzetleri</th>
+                <th>Kore Mutfağı Lezzetleri</th>
+                <th>Fransız Mutfağı Lezzetleri</th>
+            </tr>
+            <!--2.Satır: Yemekler-->
+            <tr>
+                <td><a href="#zeytinyagli-yaprak-sarma">Zeytinyağlı Yaprak Sarma</a></td>
+                <td><a href="#lazanya">Lazanya</a></td>
+                <td><a href="#sushi">Sushi</a></td>
+                <td><a href="#tteokbokki">Tteokbokki</a></td>
+                <td><a href="#ratatouille">Ratatouille</a></td>
+            </tr>
+            <!--3.Satır: Yemekler-->
+            <tr>
+                <td><a href="#lahmacun">Lahmacun</a></td>
+                <td><a href="#pizza">Pizza</a></td>
+                <td><a href="#ramen">Ramen</a></td>
+                <td><a href="#mandu">Mandu</a></td>
+                <td><a href="#croissant">Croissant</a></td>
+            </tr>
+        </table>
+
+        <!--Yemek Tarifleri-->
+        <section id="zeytinyagli-yaprak-sarma" class="recipe-container">
+            <div>
+                <img src="yaprak_sarma.jpeg" alt="Yaprak Sarma" title="Yaprak Sarma">
+            </div>
+            <div>
+                <h2 style="color:rgb(79, 135, 79)"><i>Zeytinyağlı Yaprak Sarma Tarifi</i></h2>
+                <p style="color: rgb(156, 156, 156)">8-10 Kişilik || 40dk Hazırlık, 45dk Pişirme</p>
+                <h3><b><i>Gerekli Malzemeler</i></b></h3>
+                <ul>
+                    <li>1 kilogram asma yaprağı (salamura veya taze)</li>
+                    <b><i style="color:lightpink">İç harcı için:</i></b>
+                    <li>1 çay bardağı zeytinyağı (125 ml)</li>
+                    <li>3 adet kuru soğan</li>
+                    <li>1 yemek kaşığı salça</li>
+                    <li>2 su bardağı pirinç</li>
+                    <li>1 yemek kaşığı kuru nane</li>
+                    <li>1 tatlı kaşığı yenibahar</li>
+                    <li>1 tatlı kaşığı tuz</li>
+                    <li>1 çay kaşığı karabiber</li>
+                    <li>1 avuç maydanoz</li>
+                    <li>1,5 su bardağı sıcak su (300 ml)</li>
+                    <b><i style="color:lightpink">Üzeri için:</i></b>
+                    <li>Yarım limon suyu</li>
+                    <li>Limon dilimleri</li>
+                    <li>2 yemek kaşığı zeytinyağı</li>
+                    <li>2,5 su bardağı sıcak su (500 ml)</li>
+                </ul>
+                <h3><b><i>Yapılışı</i></b></h3>
+                <ol>
+                    <li>Öncelikle asma yapraklarını suya alarak tuzunun çıkması için bekletin. Ne kadar tuzlu ise o kadar uzun süre bekletmeniz iyi olur.</li>
+                    <li>Tencereye zeytinyağını alarak yemeklik doğradığınız soğanları şeffaflaşıncaya kadar kavurun.</li>
+                    <li>Yıkanmış pirinci ekleyip kavurmaya devam edin.</li>
+                    <li>Salça, tuz ve baharatları ekleyip karıştırın.</li>
+                    <li>Suyu ekleyin ve iç harcı suyunu çekene kadar kısık ateşte pişirin. Ardından harcı ocaktan alın.</li>
+                    <li>Maydanozu ilave edip karıştırın.</li>
+                    <li>Yaprakları düz bir zemine serin ve içerisine iç malzemesini yerleştirip sigara böreği gibi sarın.</li>
+                    <li>Sardığınız yaprakları tencereye düzenli şekilde yerleştirin. Artan yaprakları tabana yerleştirebilirsiniz.</li>
+                    <li>Üzerine limon dilimleri yerleştirin, yarım limonun suyunu sıkın. Zeytinyağını ekleyin.</li>
+                    <li>Sarmaların üzerine gelecek kadar sıcak su ekleyin ve üzerini varsa artan yapraklarla kapatın.</li>
+                    <li>Kaynadıktan sonra kısık ateşte, sık sık suyunu kontrol ederek suyunu çekene kadar pişirin.</li>
+                    <li>Afiyet olsun.</li>               
+                </ol>
+                <p><strong>Not:</strong> Yapraklar ne kadar tuzlu olursa iç malzemesindeki tuzu o kadar azaltın.</p>
+            </div>
+            <!-- Film Linki Ekleme -->
+        <p><a href="sarma-yerken-izlenebilecek-filmler.html">Sarma Yerken İzlenebilecek Filmler</a></p>
+        <p><a href="#top" class="back-to-top">Başa Dön</a></p>
+
+
+        </section>
+
+        <section id="lahmacun" class="recipe-container">
+            <div>
+                <img style="width: 37%; height: auto;" src="lahmacun.jpeg" alt="Lahmacun" title="Lahmacun">
+            </div>
+            <div>
+                <h2 style="color:coral"><i>Lahmacun Tarifi</i></h2>
+                <p style="color: rgb(156, 156, 156)">4-6 Kişilik || 20dk Hazırlık, 10dk Pişirme</p>
+                <h3><b><i>Gerekli Malzemeler</i></b></h3>
+                <b><i style="color:lightpink">İç harcı için:</i></b>
+                <ul>
+                    <li>1 adet soğan</li>
+                    <li>1 adet yeşil biber</li>
+                    <li>1 adet kırmızı biber</li>
+                    <li>2 adet domates</li>
+                    <li>2 diş sarımsak</li>
+                    <li>1 yemek kaşığı dolusu salça</li>
+                    <li>1 tutam maydanoz</li>
+                    <li>500g kıyma</li>
+                    <li>Birer tatlı kaşığı kırmızı toz biber ve pul biber</li>
+                    <li>Birer çay kaşığı karabiber ve kimyon</li>
+                    <li>1 tatlı kaşığı tuz</li>
+                    <b><i style="color:lightpink">Hamuru için;</i></b>
+                    <li>4 su bardağı un</li>
+                    <li>1 tatlı kaşığı tuz</li>
+                    <li>1 çay kaşığı şeker</li>
+                    <li>2 su bardağı su</li>
+                </ul>
+                <h3><b><i>Yapılışı</i></b></h3>
+                <ol>
+                    <li>Lahmacunumuzun iç harcı için bir kaç parçaya böldüğümüz soğanı, yeşil ve kırmızı biberi rondodan geçirelim.</li>
+                    <li>Daha sonra doğradığımız domatesi, sarımsağı, salçayı ve maydanozu da ekleyerek tekrar rondodan geçirelim.</li>
+                    <li>Hazırladığımız bu karışımı uygun bir kap içerisine alalım ve üzerine kıymayı, baharatları ve tuzu da ilave ederek tüm malzemeleri elimizle güzelce karıştıralım.</li>
+                    <li>Güzel bir kıvam alan harcımızın üzerini streçleyerek buzdolabında dinlenmeye bırakalım.</li>
+                    <li>Harcımız dinlenirken bizde hamurumuzu hazırlayalım. Lahmacun hamuru için uygun bir yoğurma kabına aldığımız unun üzerine tuz ve şekeri ekleyerek şöyle bir karıştıralım ve ortasını çukurlaştıralım.</li>
+                    <li>Açtığımız çukura suyu dökelim ve kenar kısımlardan un alarak hamurumuzu yoğurmaya başlayalım.</li>
+                    <li>Pürüzsüz bir hamur elde edene kadar yoğurma işlemine devam edelim.</li>
+                    <li>Hazır olan hamurumuzun üzerini de streçleyerek buzdolabına koyalım ve 20 dakika kadar dinlenmeye bırakalım.</li>
+                    <li>Dinlenen hamurumuzu un serptiğimiz tezgaha çıkaralım ve eşit bir şekilde 4 parçaya bölelim.</li>
+                    <li>Böldüğümüz parçaları da 3’e bölerek birbirine eşit 12 parça elde edelim.</li>
+                    <li>Hamurlarımızı dıştan içe doğru yoğurarak beze haline getirelim.</li>
+                    <li>Bezelerimizi tabağa alarak kurumaması için üzerini streç film ile tekrar kapatalım.</li>
+                    <li>Bezelerimizden bir tanesini tezgaha alalım ve üzerine un serpelim ve merdane yardımı ile açmaya başlayalım. Bezelerimizi mümkün olduğunca ince açmaya çalışalım.</li>
+                    <li>Yaklaşık 23-24 cm çapında açtıktan sonra pişirme kağıdını hamurumuzun altına yerleştirelim.</li>
+                    <li>Pişirme kağıdımızı açtığımız hamurdan biraz daha büyük olacak şekilde keselim.</li>
+                    <li>Kıymalı harcımızdan 2 yemek kaşığı kadar alalım, hamurumuzun üzerine elimizle güzel bir şekilde yayalım.</li>
+                    <li>Lahmacunumuzu altında pişirme kağıdı ile birlikte ısıttığımız tavaya alalım, altı hafif kızarana kadar tavada pişirelim.</li> 
+                    <li>Daha sonra lahmacunumuzu fırın telinin üzerine alalım, ızgara ayarında maksimum derece getirdiğimiz fırında yaklaşık 250°C de kenarları kızarmaya başlayıncaya kadar pişirelim.</li> 
+                    <li>Fırından aldığımız lahmacunların üzerini temiz bir bez ile kapatalım. Böylece biz diğer bezeleri hazırlarken pişen lahmacunlarımız kurumayacaktır.</li>
+                    <li>Lahmacunların pişirme süreleri kısa olduğu için biri pişerken diğerini hazırlarsanız sizin için daha kolay olacaktır. Aynı zamanda her lahmacunda aynı pişirme kağıdını kullanabilirsiniz.</li>
+                    <li>Tüm lahmacunlarımızı bu şekilde pişirdikten sonra servis edebiliriz. Afiyet olsun.</li>            
+                </ol>
+            </div>
+            <!-- Film Linki Ekleme -->
+        <p><a href="lahmacun-yerken-izlenebilecek-filmler.html">Lahmacun Yerken İzlenebilecek Filmler</a></p>
+        <p><a href="#top" class="back-to-top">Başa Dön</a></p>
+        </section>
+
+        <section id="lazanya" class="recipe-container">
+            <div>
+                <img style="width: 35%; height: auto;" src="lazanya.jpeg" alt="Lazanya" title="Lazanya">
+            </div>
+            <div>
+                <h2 style="color:rgb(241, 208, 63)"><i>Lazanya Tarifi</i></h2>
+                <p style="color: rgb(156, 156, 156)">4-6 Kişilik || 40dk Hazırlık, 15dk Pişirme</p>
+                <h3><b><i>Gerekli Malzemeler</i></b></h3>
+                <ul>
+                    <li>12 yaprak lazanya</li>
+                    <b><i style="color:lightpink">İç harcı için:</i></b>
+                    <li>400 gr kıyma</li>
+                    <li>3 yemek kaşığı sıvı yağ</li>
+                    <li>2 adet kuru soğan</li>
+                    <li>2 adet domates</li>
+                    <li>2 yemek kaşığı domates salçası</li>
+                    <li>2 diş sarımsak</li>
+                    <li>1 tatlı kaşığı tuz</li>
+                    <li>1,5 su bardağı sıcak su (300 ml)</li>
+                    <b><i style="color:lightpink">Beşamel sosu için:</i></b>
+                    <li>2 yemek kaşığı tereyağı</li>
+                    <li>Yarım su bardağı un</li>
+                    <li>3 su bardağı süt (600 ml)</li>
+                    <li>1 çay kaşığı tuz</li>
+                    <li>Yarım çay kaşığı karabiber</li>
+                    <b><i style="color:lightpink">Üzeri için:</i></b>
+                    <li>1 su bardağı kaşar peyniri rendesi</li>
+
+                </ul>
+                <h3><b><i>Yapılışı</i></b></h3>
+                <ol>
+                    <li>İç harcı için geniş bir tavaya sıvı yağı alalım. Küçük küçük doğradığımız soğanları ilave edelim, biraz kavurduktan sonra üzerine kıymayı ilave ederek kavurmaya devam edelim.</li>
+                    <li>Kıymalar yeterince kavrulunca doğradığımız sarımsakları ve kabuğunu soyup doğradığımız domatesleri de ilave edelim ve orta ateşte 5 dakika kadar daha soteleyelim.</li>
+                    <li>Üzerine salçayı ve tuzu ekleyerek kavuralım.</li>
+                    <li>Ardından suyunu ekleyelim ve iç harcımız suyunu çekene kadar kısık ateşte pişmeye bırakalım.</li>
+                    <li>Beşamel sosu için tereyağı ve unu küçük bir tencereye alalım ve orta ateşte kavurun.</li>
+                    <li>Üzerine sütü azar azar ekleyelim ve topaklanmaması için sürekli çırparak karıştıralım.</li>
+                    <li>Kaynamaya başlayınca tuz ve karabiberi ekleyelim. Muhallebi kıvamına gelince ocaktan alalım.</li>
+                    <li>Kıymalı sos ve beşamel sos hazırlandıktan sonra ısıya dayanıklı bir fırın kabına önce biraz iç harçtan yayalım.</li>
+                    <li>Üzerine çok az beşamel sostan gezdirdikten sonra lazanyaları dizelim.</li>
+                    <li>Lazanyaların üzerine biraz kıymalı iç harç ve ardından beşamel sos dökerek güzelce yayalım.</li>
+                    <li>Üzerine tekrar lazanya yapraklarından yerleştirelim ve tekrar iç hraç ve beşamel sostan gezdirelim. Bu işlemi malzemeleriniz bitene kadar devam ettirelim.</li>
+                    <li>En üstteki lazanyalara tekrar iç harç ve beşamel sos dökelim ve kaşar peyniri rendesi serpelim.</li>
+                    <li>Lazanyalarımızı önceden ısıtılmış 190 derece fırında yaklaşık 20-25 dakika pişirelim.</li>
+                    <li>Üzeri tamamen kızarınca fırından alalım ve 15 dakika kadar dinlendirelim.</li>
+                    <li>Ardından lazanyamızı dilimleyerek servis edelim. Afiyet olsun.</li>               
+                </ol>
+                <p><strong>Not:</strong> Yapmadan önce paketin üzerini okumanızı tavsiye ederim, çünkü bazı lazanyaların haşlanması gerekebilir, eğer haşlanması gerekiyorsa orada belirtilecektir.</p>
+            </div>
+            <!-- Film Linki Ekleme -->
+        <p><a href="lazanya-yerken-izlenebilecek-filmler.html">Lazanya Yerken İzlenebilecek Filmler</a></p>
+        <p><a href="#top" class="back-to-top">Başa Dön</a></p>
+
+        </section>
+
+        <section id="pizza" class="recipe-container">
+            <div>
+                <img  src="pizza.jpeg" alt="Pizza" title="Pizza">
+            </div>
+            <div>
+                <h2 style="color:rgb(236, 46, 93)"><i>Pizza Tarifi</i></h2>
+                <p style="color: rgb(156, 156, 156)">8-10 Kişilik || 40dk Hazırlık, 30dk Pişirme</p>
+                <h3><b><i>Gerekli Malzemeler</i></b></h3>
+                <ul>
+                    <b><i style="color:lightpink">Hamuru için:</i></b>
+                    <li>5 su bardağı un</li>
+                    <li>1 paket instant maya (ya da yarım paket yaş maya)</li>
+                    <li>1 yemek kaşığı toz şeker</li>
+                    <li>Yarım yemek kaşığı tuz</li>
+                    <li>4 yemek kaşığı zeytinyağı</li>
+                    <li>2 su bardağı ılık su</li>
+                    <b><i style="color:lightpink">Sosu için:</i></b>
+                    <li>2 su bardağı domates sosu</li>
+                    <li>2 yemek kaşığı zeytinyağı</li>
+                    <li>1 çay kaşığı kuru fesleğen</li>
+                    <li>1 çay kaşığı kekik</li>
+                    <b><i style="color:lightpink">Üzeri için:</i></b>
+                    <li>Mozzarella peyniri</li>
+                    <li>Kaşar peyniri</li>
+                    <li>Sucuk</li>
+                    <li>Sosis</li>
+                    <li>Domates kurusu</li>
+                    <li>Mantar</li>
+                    <li>Mısır</li>
+
+                </ul>
+                <h3><b><i>Yapılışı</i></b></h3>
+                <ol>
+                    <li>Unu yoğurma kabına alalım ve ortasını havuz şeklinde açalım.</li>
+                    <li>Unun ortasına instant maya, şeker, tuz, zeytinyağı ve ılık suyu yavaş yavaş ilave ederek hamurumuzu yoğurmaya başlayalım. İnstant maya yerine yarım paket yaş mayada kullanabilirsiniz.</li>
+                    <li>Yumuşak kıvamlı ele yapışmayan bir hamur elde edelim.</li>
+                    <li>Toparlanan hamurumuzun üzerini streç film örterek yaklaşık 30 dk kadar mayalanmaya bırakalım.</li>   
+                    <li>Mayalanan hamurun üzerini açalım ve un serptiğimiz tezgaha hamuru alalım.</li>   
+                    <li>Elimizle yine toparlayıp havasını aldıktan sonra 2 eşit parçaya bölelim. Eğer ince hamurlu pizza hazırlamak istiyorsanız aynı hamuru 3 parçaya da bölebilirsiniz.</li>   
+                    <li>Kestiğimiz parçayı beze haline getirerek un serptiğimiz tezgahta merdane yardımıyla açalım. Hafifçe un serperek merdaneye yapışmamasını sağlayabilirsiniz.</li>   
+                    <li>Açtığımız hamuru pizza tepsisine almadan önce boyutu uygun mu diye kontrol edelim.</li>   
+                    <li>Açtığımız hamuru unladığımız pizza tepsisine alalım ve elimizle etrafını düzeltelim.</li>   
+                    <li>Dilerseniz normal fırın tepsisine pişirme kağıdı sererek veya altına mısır unu serperek de hazırlayabilirsiniz.</li>   
+                    <li>Bir çatal yardımıyla hamurumuzun tüm yüzeyine delikler açalım böylelikle hamur pişerken kabarmayacaktır.</li>   
+                    <li>Pizza tepsisini önceden ısıttığımız 200° fırına sürerek hamurumuzu 10 dk pişirelim.</li>   
+                    <li>Hamurumuz pişerken pizzanın sosu için domates sosu, zeytinyağı, kuru fesleğen ve kekiği ekleyerek güzelce karıştıralım.</li>   
+                    <li>Yarı pişen hamurumuzu fırından alıp hazırladığımız sosu üzerine bolca sürelim. Kenarlarına doğruda güzelce sürersek kenarlarıda daha güzel kızaracaktır.</li>
+                    <li>Domates sosunun üzerine bolca mozzarella peyniri rendesi veya kaşar peyniri rendesini yerleştirelim.</li>
+                    <li>Üzerine tercihe göre dilimlenmiş sucuk, dilimlenmiş sosis, domates kurusu,dilimlenmiş mantar ve mısır tanelerini ekleyelim.</li>
+                    <li>Son olarak pizzamızı tekrar fırına sürelim ve 200° fırında 20 dk daha pişmeye bırakalım.</li>
+                    <li>Peynirleri güzel bir şekilde eriyen sucukları sosisleri gayet nefis bir şekilde pişen pizzamız servise hazır. Afiyet olsun.</li>
+                </ol>
+                <p><strong>Not:</strong> Üzerine dilediğiniz malzemeleri ekleyip çıkarabilirsiniz.</p>
+            </div>
+            <!-- Film Linki Ekleme -->
+        <p><a href="pizza-yerken-izlenebilecek-filmler.html">Pizza Yerken İzlenebilecek Filmler</a></p>
+        <p><a href="#top" class="back-to-top">Başa Dön</a></p>
+
+        </section>
+
+        <section id="sushi" class="recipe-container">
+            <div>
+                <img style="width: 33%; height: auto;" src="sushi.jpeg" alt="Sushi" title="Sushi">
+            </div>
+            <div>
+                <h2 style="color:rgb(12, 87, 44)"><i>Sushi Tarifi</i></h2>
+                <p style="color: rgb(156, 156, 156)"> 2-4 Kişilik || 10dk Hazırlık, 10dk Pişirme</p>
+                <h3><b><i>Gerekli Malzemeler</i></b></h3>
+                <ul>
+                    <li>1 su bardağı pirinç</li>
+                    <li>1 su bardağı su</li>
+                    <li>3 adet nori yaprağı (Sushi yosunu)</li>
+                    <li>1/4 (çeyrek) adet avokado</li>
+                    <li>1 adet ufak havuç</li>
+                    <li>1 adet badem salatalık</li>
+                    <li>50 ml pirinç sirkesi (mirin)</li>
+                    <li>Salamura somon füme</li>
+                    <li>Yarım yemek kaşığı şeker</li>
+                    <li>Yarım yemek kaşığı tuz</li>
+                    <b><i style="color:lightpink">Yanında:</i></b>
+                    <li>Soya sosu</li>
+                    <li>Wasabi</li>
+
+                </ul>
+                <h3><b><i>Yapılışı</i></b></h3>
+
+                <ol>
+                    <li>Pirinç ılık su ile yarım saat ıslatılır.</li>
+                    <li>Daha sonra nişastası gidene kadar iyice yıkanır ve 1 bardak sıcak su ile yarım dakika en küçük ocakta tam açık ateşte, sonra suyunu tamamen çekene kadar kısık ateşte pişirilir.</li>
+                    <li>Pirinç pişince bir karıştırılıp üzerine bir peçete kapatılıp 15 dk. dinlendirilir.</li>
+                    <li>Sonra cam bir kaba alınıp karıştırılarak iyice soğuması sağlanır.</li>
+                    <li>Küçük bir cezvede 50 ml pirinç sirkesi, tuz ve şeker eriyene kadar ısıtılır, hemen pirinçlere eklenip 1-2 dk. sürekli karıştırılarak homojen bir şekilde pirinçle karışması sağlanır ve ara ara karıştırılarak dinlendirilip soğutulur.</li>
+                    <li>Avokado, havuç ve salatalık kürdan gibi ince ince (jülyen) doğranır. Bir kaseye su doldurulup hazırda bekletilir.</li>
+                    <li>Nori yaprağının parlak kısmı bize bakacak şekilde hasır bir servisin üzerine açılır.</li>
+                    <li>Soğuyan pirinç 3 parçaya ayrılır, her nori yaprağına pirincin 1/3ü kaşıkla eklenir, parmak uçları su ile ıslatılarak pirinç yaprağın yer yerine eşit bir şekilde yayılır.</li>
+                    <li>Yaprağın bir tarafına avokado, havuç ve salatalıklar eklenir.</li>
+                    <li>Üzerine salamura somon eklenir, yavaş yavaş, hasır servis ile iyice sıkılarak rulo haline getirilir.</li>
+                    <li>Bıçak suya daldırılıp rulonun iki ucundaki sarkan parçalar kesilir, tercihe göre dilimlenerek yanında soya sosu ve wasabi ile servis edilir. Afiyet olsun.</li>
+                </ol>
+                <p><strong>Not:</strong> Üzerine dilediğiniz malzemeleri ekleyip çıkarabilirsiniz.</p>
+            </div>
+            <!-- Film Linki Ekleme -->
+        <p><a href="sushi-yerken-izlenebilecek-filmler.html">Sushi Yerken İzlenebilecek Filmler</a></p>
+        <p><a href="#top" class="back-to-top">Başa Dön</a></p>
+
+        </section>
+
+        <section id="ramen" class="recipe-container">
+            <div>
+                <img src="ramen.jpeg" alt="Ramen" title="Ramen">
+            </div>
+            <div>
+                <h2 style="color:rgb(1, 1, 108)"><i>Ramen Tarifi</i></h2>
+                <p style="color: rgb(156, 156, 156)">1-2 Kişilik || 5dk Hazırlık, 20dk Pişirme</p>
+                <h3><b><i>Gerekli Malzemeler</i></b></h3>
+                <ul>
+                    <li>2 parça tavuk göğsü</li>
+                    <li>1 adet büyük boy mantar</li>
+                    <li>1 adet yumurta</li>
+                    <li>Yarım çay bardağı soya sosu</li>
+                    <li>1 paket noodle</li>
+                    <li>Zencefil</li>
+                    <li>Kekik</li>
+                    <li>Karabiber</li>
+                    <li>Kimyon</li>
+                    <li>Acı sos</li>
+                    <li>Sarımsak (toz-püre fark etmez)</li>
+
+                </ul>
+                <h3><b><i>Yapılışı</i></b></h3>
+
+                <ol>
+                    <li>Bir tavaya az miktar sıvı yağ dökün, ısınınca tavukları tavaya koyun.</li>
+                    <li>Mantarın kabuğunu soyun ve iri iri doğrayın, bir yüzü renk alınca tavukları çevirin ve mantarı, soya sosunu ekleyin.</li>
+                    <li>Bu esnada ramen için su kaynatın, bir cezveye de su koyup ocağa koyun(yumurta için).</li>
+                    <li>Tavada sos içinde pişen mantar ve tavukları kontrol edin, tavuk pişmiş ise tavadan alın ve paket noodle, kaynayan suyu ekleyin.</li>
+                    <li>Tavaya kalan baharatları ve acı sosu ekleyin ve noodle yumuşayana kadar pişirin.</li>
+                    <li>Cezvede kaynayan suya yumurtayı koyun ve 7 dakika haşlayın. (kayısı kıvamında olabilmesi için).</li>
+
+                </ol>
+            </div>
+            <!-- Film Linki Ekleme -->
+        <p><a href="ramen-yerken-izlenebilecek-filmler.html">Ramen Yerken İzlenebilecek Filmler</a></p>
+        <p><a href="#top" class="back-to-top">Başa Dön</a></p>
+
+        </section>
+
+        <section id="tteokbokki" class="recipe-container">
+            <div>
+                <img style="width: 55%; height: auto;" src="tteokbokki.jpeg" alt="Tteokbokki" title="Tteokbokki">
+            </div>
+            <div>
+                <h2 style="color:rgb(44, 166, 85)"><i>Tteokbokki Tarifi</i></h2>
+                <p style="color: rgb(156, 156, 156)">3 Kişilik || 60dk Hazırlık, 60dk Pişirme</p>
+                <h3><b><i>Gerekli Malzemeler</i></b></h3>
+                <ul>
+                    <li>2 su bardağı pirinç unu</li>
+                    <li>1 tutam tuz</li>
+                    <li>1 su bardağı ılık su</li>
+                    <li>1/2 çay bardağı sıvı yağ</li>
+                    <b><i style="color:lightpink">Sosu için:</i></b>
+                    <li>1 yemek kaşığı acı biber salçası</li>
+                    <li>1 yemek kaşığı toz kırmızı biber</li>
+                    <li>1 tatlı kaşığı toz şeker</li>
+                    <li>4 yemek kaşığısoya sosu</li>
+                    <li>3 diş sarımsak</li>
+                    <li>1 yemek kaşığı taze zencefil</li>
+                    <li>1 çay bardağı lahana turşusu suyu</li>
+                    <li>2 adet sardalya balığı(konserve)</li>
+                    <li>2 bardak sıcak su</li>
+                    <b><i style="color:lightpink">Pişirmek için:</i></b>
+                    <li>3 yemek kaşığı sıvı yağ</li>
+                    <li>1 adet kuru soğan</li>
+                    <li>1 çorba kasesi lahana turşusu</li>
+                    <li>4 adet taze soğanın beyaz kısımları</li>
+                    <b><i style="color:lightpink">Servis için:</i></b>
+                    <li>1 tutam kavrulmuş susam</li>
+                    <li>1 tutam çörek otu</li>
+                    <li>3 adet taze soğan (yeşil kısımları kullanılacak)</li>
+
+
+                </ul>
+                <h3><b><i>Yapılışı</i></b></h3>
+                <ol>
+                    <li>Pirinç keki için geniş bir kasede pirinç unu ve tuzu karıştırın, ılık suyu azar azar ekleyip harmanlayın. Avcunuzla bastırdığınızda birleşen bir hal alana kadar yoğurun.</li>
+                    <li>Geniş bir tencerenin tabanına sıcak su koyun, içine buhar aparatı yerleştirin, buhar aparatının üzerine ıslatılmış yağlı kağıt koyun, hamuru kağıdın içine sarın ve kapağını kapatıp yaklaşık 30-40 dakika pişirin.</li>
+                    <li>Pişen hamuru yağlanmış tezgaha alın ve sıcakken merdane, patates ezeceği ya da kazıma spatulası ile yumuşayana kadar yoğurun. Bu işlem esnasında tezgahınızı azar azar yağlayın</li>
+                    <li>Hamur elle dokunulabilir sıcaklığa gelince avcunuzu yağlayıp yoğurmaya devam edin. Hamur pürüzüsüz ve eznek bir hal alınca hamuru bezelere bölün, her bezeyi yağlı tezgahta ince bir rulo gibi açın ve dilediğiniz boyutta kesin.</li>
+                    <li>Kestiğiniz parçaları hafifçe yağlanmış bir tabağa alın üzerini streçleyin ve kullanana kadar buzdolabında saklayın. Taze kullanacaksanız bir haftaya kadar buzdolabında ya da dondurmak isterseniz 1 ay kadar derin dondurucuda saklayabilirsiniz.</li>
+                    <li>Sos için geniş bir kasede salça, toz biber, toz şeker, lahana suyu, soya sosu, sardalyalar, ezilmiş ya da minik doğranmış sarımsak ve zencefilleri sıcak su ekleyip karıştırın,  süzün.</li>
+                    <li>Pişirmek için geniş bir tavaya sıvı yağ koyun ve orta ateşte yarım ay doğranmış soğanları, kalın parçalar halinde kesilmiş lahana turşularını ve taze soğanın beyaz kısımlarını 1-2 dakika ısınana kadar soteleyin.</li>
+                    <li>Sosu tavaya aktarın, pirinç keklerini de koyup ocağın altını açın. Sos koyulaşınca ve pirinç kekleriyle bütünleşince ocaktan alın.</li>
+                    <li>Tteokbokkiyi tabaklara paylaştırın, kavrulmuş susam, çörek otu ve ince kıyılmış taze soğanın yeşil kısımlarını ekleyip servis edin. Afiyet olsun.</li>
+                    
+                </ol>
+
+            </div>
+            <!-- Film Linki Ekleme -->
+        <p><a href="tteokbokki-yerken-izlenebilecek-filmler.html">Tteokbokki Yerken İzlenebilecek Filmler</a></p>
+        <p><a href="#top" class="back-to-top">Başa Dön</a></p>
+
+        </section>
+
+        <section id="mandu" class="recipe-container">
+            <div>
+                <img style="width: 35%; height: auto;" src="mandu.jpeg" alt="Mandu" title="Mandu">
+            </div>
+            <div>
+                <h2 style="color:rgb(209, 90, 35)"><i>Mandu Tarifi</i></h2>
+                <p style="color: rgb(156, 156, 156)">4 Kişilik || 30dk Hazırlık, 10dk Pişirme</p>
+                <h3><b><i>Gerekli Malzemeler</i></b></h3>
+                <ul>
+                    <b><i style="color:lightpink">Hamuru için:</i></b>
+                    <li>1 su bardağı un</li>
+                    <li>1 tatlı kaşığı tuz</li>
+                    <li>4 yemek kaşığı su</li>
+                    <li>2 yemek kaşığı zeytinyağı</li>
+                    <b><i style="color:lightpink">İç harcı için:</i></b>
+                    <li>100 gram kıyma</li>
+                    <li>1/2 adet rendelenmiş soğan</li>
+                    <li>1 çay kaşığı tuz</li>
+                    <li>1 çay kaşığı karabiber</li>
+                    <li>1 çay kaşığı zerdeçal</li>
+                    <li>1 yemek kaşığı soya sosu</li>
+                    <li>1 su bardağı lahana(ince kıyılmış)</li>
+
+                </ul>
+                <h3><b><i>Yapılışı</i></b></h3>
+                <ol>
+                    <li>Mandunun hamuru için tüm malzemeleri karıştırıp iyice yoğurun. Mantı hamurunun üstünü kapatıp, yarım saat dinlendirin.</li>
+                    <li>İç harcı için lahana hariç tüm malzemeleri karıştırın.</li>
+                    <li>Lahanayı da ekleyerek yoğurun.</li>
+                    <li>Dinlenen hamuru uzunlamasına açın, üstüne un serpiştirin.</li>
+                    <li>Küçük bezelere bölerek çay tabağı büyüklüğünde açın.</li>
+                    <li>İç harcınızı ekledikten sonra kenarları üst üste getirin</li>
+                    <li>Tencerede kaynayan suyun içine atarak 10 dakika pişirin.</li>
+                    <li>Afiyet olsun.</li>
+                </ol>
+                <p><strong>Not:</strong>Buhar sepeti kullanarak da manduları buharda 10-12 dakika pişirebilirsiniz.</p>
+
+            </div>
+            <!-- Film Linki Ekleme -->
+        <p><a href="mandu-yerken-izlenebilecek-filmler.html">Mandu Yerken İzlenebilecek Filmler</a></p>
+        <p><a href="#top" class="back-to-top">Başa Dön</a></p>
+
+        </section>
+
+        <section id="ratatouille" class="recipe-container">
+            <div>
+                <img style="width: 45%; height: auto;" src="ratatouille.jpeg" alt="Ratatouille" title="Ratatouille">
+            </div>
+            <div>
+                <h2 style="color:rgb(48, 48, 48)"><i>Ratatouille Tarifi</i></h2>
+                <p style="color: rgb(156, 156, 156)">4-6 Kişilik || 20dk Hazırlık, 60dk Pişirme</p>
+                <h3><b><i>Gerekli Malzemeler</i></b></h3>
+                <ul>
+                    <li>2-3 adet kabak</li>
+                    <li>2-3 adet patlıcan</li>
+                    <li>3-4 adet domates</li>
+                    <li>3-4 adet patates</li>
+                    <b><i style="color:lightpink">Sosu için:</i></b>
+                    <li>3-4 domates</li>
+                    <li>1 adet büyük soğan</li>
+                    <li>3-4 diş sarımsak</li>
+                    <li>2-3 adet sivri biber</li>
+                    <li>Yarım çay bardağı sıvı yağ</li>
+                    <li>1 yemek kaşığı tereyağı</li>
+                    <li>Tuz</li>
+                    <li>Karabiber</li>
+                    <li>Kekik</li>
+                    <li>Pul biber</li>
+                    <b><i>Üzeri için:</i></b>
+                    <li>Rendelenmiş kaşar peyniri</li>
+
+                </ul>
+                <h3><b><i>Yapılışı</i></b></h3>
+                <ol>
+                    <li>Patlıcanları yuvarlak şeklinde doğrayalım ve tuzlu suda bekletelim.</li>
+                    <li>Bu arada sosumuzu hazırlayalım. Soğanı ince doğrayalım ve yağda kavuralım.</li>
+                    <li>Hafif kavurduktan sonra, doğranmış sarımsak ve sivri biberimizi ekleyelim.</li>
+                    <li>2-3 dakika kavuralım ve kabuksuz doğranmış domatesi ve tereyağı ekleyelim. 2-3 dakika pişirelim.</li>
+                    <li>Baharatları ekleyelim ve altını kapatalım.</li>
+                    <li>Bir tepsi ya da borcam içine sosu dökelim.</li>
+                    <li>Sebzeleri aynı kalınlıkta yuvarlak doğrayalım ve tuzlayalım.</li>
+                    <li>Sıra ile üst üste dizip, hafif yatırarak sosun üzerine yerleştirelim.</li>
+                    <li>Üzerini alüminyum folyo ile kapatıp, 180-200 derece ısıtılmış fırına koyalım.</li>
+                    <li>20 dakika üstü kapalı pişirelim.</li>
+                    <li>Sonra folyoyu kaldıralım ve tam pişene kadar fırında bekletelim.</li>
+                    <li>Piştiğinde üzerine kaşar peyniri dökelim ve hafif kızarana kadar tekrar fırına koyalım.</li>
+                    <li>Afiyet olsun.</li>
+
+                </ol>
+
+            </div>
+            <!-- Film Linki Ekleme -->
+        <p><a href="ratatouille-yerken-izlenebilecek-filmler.html">Ratatouille Yerken İzlenebilecek Filmler</a></p>
+        <p><a href="#top" class="back-to-top">Başa Dön</a></p>
+
+        </section>
+
+        <section id="croissant" class="recipe-container">
+            <div>
+                <img src="croissant.jpeg" alt="Croissant" title="Croissant">
+            </div>
+            <div>
+                <h2 style="color:rgb(74, 26, 4)"><i>Croissant(Kruvasan) Tarifi</i></h2>
+                <p style="color: rgb(156, 156, 156)">4-6 Kişilik || 30dk Hazırlık, 20dk Pişirme</p>
+                <h3><b><i>Gerekli Malzemeler</i></b></h3>
+                <ul>
+                    <b><i style="color:lightpink">Hamuru için:</i></b>
+                    <li>200 gr un</li>
+                    <li>30 gr şeker</li>
+                    <li>Yarım paket yaş maya</li>
+                    <li>4 gr tuz</li>
+                    <li>40 gr eritilmiş tereyağı (hafif kahverengi olması lazım)</li>
+                    <li>95 ml süt (yaklaşık 1 su bardağı)</li>
+                    <b><i style="color:lightpink">Ara katları için:</i></b>
+                    <li>100 gr tereyağı (önceden yumuşamış kare şeklini verip bir poşet yardımıyla ve tekrar buzdolabına konulmuş)</li>
+                    <b><i style="color:lightpink">Üzeri için:</i></b>
+                    <li>1 yemek kaşığı süt</li>
+                    <li>1 adet yumurta sarısı</li>
+                    <b><i style="color:lightpink">Üzeri için:</i></b>
+                    <li>Yarım su bardağı toz şeker</li>
+                    <li>Yarım su bardağı su</li>
+
+                </ul>
+                <h3><b><i>Yapılışı</i></b></h3>
+                <ol>
+                    <li>İlk önce hamuru yoğurun. Unu, tuzu, şekeri, mayayı ve sütü karıştırın.</li>
+                    <li>Tereyağı da ekleyin, hamuru pürüzsüz olana kadar 10 dk boyunca yoğurun ve mayalandırmaya bırakın.</li>
+                    <li>Mayalanmış hamura 30 cm -15 cm (bu ölçüler çok önemli) olacak şekilde dikdörtgen şeklini verin ve ve bu şekilde 20 dk buzdolabına kaldırın, hamur soğuk olmalı.</li>
+                    <li>Hazırladığınız tereyağını hamurun ortasına koyun ve zarf şeklinde katlayın, tereyağını içine hapsedin. Bu işlemi tekrar yapın ve yine buzdolabına kaldırın.</li>
+                    <li>Yine zarf gibi katlayın ve bu sefer uzunlamasına açın. Resimdeki gibi bıçak yardımıyla kesin.</li>
+                    <li>Rulo yapın, kruvasan şeklini verin ve tepside 1 saat mayalandırın.</li>
+                    <li>Üzerine yumurta sarısını sürün ve 180 derecede pişirin. Çok güzel kızarmalı. Belki sizin fırın daha uzun sürebilir. Kontrol ediniz. Biraz sabır istiyor ama tadı çok güzel.</li>
+                    <li>Üzerine kaynattığınız suyu ve şekeri parlaması için sürebilirsiniz veya kayısı reçeli de olur.</li>
+
+                </ol>
+
+            </div>
+            <!-- Film Linki Ekleme -->
+        <p><a href="croissant-yerken-izlenebilecek-filmler.html">Croissant Yerken İzlenebilecek Filmler</a></p>
+        <p><a href="#top" class="back-to-top">Başa Dön</a></p>
+
+        </section>
+
+
+
+    
+    </main>
+    </body>
+</html>
